@@ -582,7 +582,7 @@ Unless we want to rewrite the `clickHandler` function, we're going to need to fi
 Let's consider some options to address the mis-assignment. To keep things focused, I'll stick to this style of event binding for the discussion:
 
 ```js
-this.submitBtnaddEventListener(
+this.submitBtn.addEventListener(
     "click",
     this.clickHandler,
     false
